@@ -14,7 +14,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '叫羚', // 昵称
   BIO: process.env.NEXT_PUBLIC_BIO || '这里是叫羚，一个除了会敲敲键盘之外就没什么本事最讨厌出门和社交的嘉心糖写手。', // 简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.pixiv.net/novel/show.php?id=', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.pixiv.net', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '购物,娱乐,小说,图片', // 网站关键词 英文逗号隔开
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址
